@@ -27,6 +27,11 @@ The designs were created to the following widths:
 - Weights: 400, 700
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0;
@@ -35,27 +40,32 @@ body{
     background-color: hsl(219, 70%, 94%);
 }
 section{
-    background-color: hsl(0, 0%, 100%);
-    width: 220px;
-    height: 290px;
-    text-align: center;
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
     border-radius: 10px;
+    text-align: center;
+    padding: 10px;
 }
+
 #top{
-    background-color: hsl(217, 86%, 59%);
+    background-color: #5d8ffc;
+    border-radius: 5px;
 }
 #top img{
-    width: 150px;
+    width: 120px;
+    height: 120px;
+    margin: 20px 0px;
 }
-#bottom{
-    margin: 15px;
-}
+
 #head{
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+    font-weight: 550;
+    color: #313131;
+    margin: 15px 0px 10px;
 }
 #para{
+    font-size: 12px;
     font-weight: 400;
-    font-size: 13px;
-    color: hsl(0, 0%, 59%);
+    color: #b8b8b8;
 }
