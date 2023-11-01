@@ -16,11 +16,11 @@ body{
 }
 section{
     background-color: #fff;
-    width: 200px;
-    /*height: 300px;*/
+    width: 260px;
+    /*height: 360px;*/
     border-radius: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 #top{
@@ -28,19 +28,21 @@ section{
     border-radius: 5px;
 }
 #top img{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     margin: 20px 0px;
+}
+#bottom{
+    margin: 18px 20px;
 }
 #head{
     font-size: 15px;
     font-weight: 550;
     color: #313131;
-    margin: 15px 0px 10px;
 }
 #para{
     font-size: 12px;
     font-weight: 400;
     color: #b8b8b8;
-    margin: 0px 0px 15px;
+    margin: 15px 0px;
 }
