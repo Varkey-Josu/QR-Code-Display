@@ -9,6 +9,10 @@ body{
     font-family: outfit;
     font-size: 15px;
     background-color: hsl(219, 70%, 94%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 0px;
 }
 section{
     background-color: #fff;
